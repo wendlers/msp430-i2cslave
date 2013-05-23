@@ -6,7 +6,7 @@ sw@kaltpost.de
 This example shows how to use the MSP430G2553 as an I2C slave. The MSP430 takes some simple commands.
 One for switching the build in LED (P1.0) on/off, one for reading the state of the build in button
 (P1.3). Also a master example is provided. This example I run on a [modified TP-Link MR3020] (http://wiki.openwrt.org/toh/tp-link/tl-mr3020#adding.i2c.bus)
-router which runs OpenWrt. At the end of this document there are also some exmamples on how to use a i
+router which runs OpenWrt. At the end of this document there are also some examples on how to use a
 Bus Pirate as master. 
 
 For a quick start to setup the I2C slave, the TI USCI I2C slave
