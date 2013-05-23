@@ -99,7 +99,7 @@ changes the frequency at which thei red LED (P1.0) blinks. End the program with 
 Alternatively you could connec the Launchpad to a Bus Pirate and operate the slave whith
 the following commands:
 
-1. enter I2C mode at 100Mhz
+Enter I2C mode at 100Mhz
 
 	m4 3
 
