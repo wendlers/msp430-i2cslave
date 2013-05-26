@@ -6,7 +6,7 @@
 ##
 
 # Base directory of OpenWrt
-export OPENWRT_DIR=$PWD/../../../git/mr3020/openwrt 
+export OPENWRT_DIR=$PWD/../mr3020/openwrt 
 
 # Staging dir from OpenWrt build
 export STAGING_DIR=$OPENWRT_DIR/staging_dir

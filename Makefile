@@ -16,7 +16,7 @@ build-slave:
 
 deploy: build
 	mkdir -p ./deploy
-	cp ./master/src/i2cmaster ./deploy/.
+	cp ./master/src/i2c* ./deploy/.
 	cp ./slave/src/firmware ./deploy/.
 
 clean: clean-master clean-slave
