@@ -144,6 +144,7 @@ int main(void)
     WDTCTL = WDTPW + WDTHOLD;                      // Stop WDT
     P1DIR |= BIT0;                                 // Set P1.0 to output direction
     P1DIR &= ~BIT3;                                // Set P1.3 to input  direction
+    P1REN |= BIT3;                                 // Enable internal pullup on P1.3
     P1OUT &= ~BIT0;
 	
     TI_USCI_I2C_slaveinit(start_cb, transmit_cb, receive_cb, 0x48);
